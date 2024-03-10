@@ -1,0 +1,65 @@
+.header {
+  background-color: #2ab1e2;
+  color: #fff;
+  padding: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.current-time {
+  font-size: 18px;
+}
+
+.background-image {
+  background-image: url('https://cdn.wallpapersafari.com/47/59/MxXALE.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -15px;
+}
+
+.timer-container {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+#timer {
+  font-size: 80px;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls input[type="number"] {
+  width: 60px;
+  margin: 0 10px; /* Adjusted margin */
+}
+
+.controls button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px; /* Added margin top */
+}
+
+.controls button:first-child {
+  margin-right: 10px; /* Added margin right only for the first button */
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
